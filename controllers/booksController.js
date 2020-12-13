@@ -14,17 +14,14 @@ module.exports = {
 //       .then(books => res.json(books))
 //       .catch(err => res.status(422).json(err));
 //   },
-//   create: function(req, res) {
+
+//   insertMany: function(req, res) {
 //     db.Book
-//       .create(req.body)
+//       .insertMany(req.body)
 //       .then(books => res.json(books))
 //       .catch(err => res.status(422).json(err));
 //   },
-//   update: function(req, res) {
-//     db.Book
-//       .findOneAndUpdate({ _id: req.params.id }, req.body)
-//       .then(books => res.json(books))
-//       .catch(err => res.status(422).json(err));
+
 //   },
 //   remove: function(req, res) {
 //     db.Book
